@@ -29,7 +29,7 @@ namespace SistemaBuscador.Controllers
             {
                 return View("Index",model);
             }
-             return View();
+             return View("");
         }
 
 
