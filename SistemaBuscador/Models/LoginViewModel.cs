@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SistemaBuscador.Models
 {
-    public class LoginViewModel
+    public class LoginVIewModel
     {
-        [Required(ErrorMessage ="El Campo {0} es requerido")]
+        [Required(ErrorMessage = "El campo {0} es requerido")]
         public string Usuario { get; set; }
-        [Display(Name="Contraseña")]
-        [Required(ErrorMessage ="El campo {0} es requerido")]
+        [Display(Name = "Contraseña")]
+        [Required(ErrorMessage = "El campo {0} es requerido")]
         public string Password { get; set; }
     }
 }

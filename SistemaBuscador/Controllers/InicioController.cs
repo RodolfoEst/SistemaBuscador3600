@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace SistemaBuscador.Controllers
 {
     public class InicioController : Controller
-
     {
         public IActionResult Index()
         {
             return View();
         }
+
     }
 }
